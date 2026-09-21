@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
-MAINFONT="-*-fixed-medium-*-*-*-14-*-*-*-*-*-*-*"
+MAINFONT="-*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*"
 BARHEIGHT=16
 FGCOLOR="#000000"
-BGCOLOR="#d3d3d3"
+BGCOLOR="#ffffff"
 
 clock() {
 	TIME=`date +"%a %d %b %Y %I:%M %p"`
