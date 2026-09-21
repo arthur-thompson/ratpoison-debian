@@ -1,6 +1,6 @@
 exec killall lemonbar
 
-bind c exec st
+bind c exec urxvt
 bind b exec firefox
 escape Super_L
 
