@@ -12,3 +12,8 @@ set bargravity c
 set border 3
 set fwcolor red
 set padding 5 21 5 5
+
+# Volume Controls
+definekey top XF86AudioRaiseVolume exec amixer set Master 5%+
+definekey top XF86AudioLowerVolume exec amixer set Master 5%-
+definekey top XF86AudioMute        exec amixer set Master toggle
